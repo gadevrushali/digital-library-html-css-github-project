@@ -18,6 +18,12 @@ body {
     gap: 0px;
 }
 
+.container-login-signup:hover{
+    transform: scale(1.02);
+    border: 0.2px solid rgb(99, 91, 56);
+    box-shadow: 0 10px 15px rgba(4, 4, 4, 0.25);
+}
+
 .subcontainer {
     width: 400px;
     padding: 30px;
