@@ -35,7 +35,8 @@ body
     font-size: 15px;
         margin: 8px 0;
 }
-button {
+
+.button {
     background-color: #4b3D2D;
     color:white;
     font-size: 13px;
@@ -44,6 +45,35 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
     background-color: #e3b785;
+}
+
+.kids-back{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 100%;
+    }
+
+.back-image{
+    border: 1px;
+    border-radius: 100%;
+}  
+
+.back-image:hover{
+    transform: translateY(-4px);
+}
+
+footer{
+    margin:0;
+    text-align: center;
+    padding:15px 15px;
+    margin-top:20px
 }

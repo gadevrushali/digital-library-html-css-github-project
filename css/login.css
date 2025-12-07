@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #E3D4B9;
+   
 }
 
 
@@ -122,4 +122,12 @@ body {
     display: flex;
     gap: 20px;
     cursor: pointer;
+}
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 0;
+    }
 }
